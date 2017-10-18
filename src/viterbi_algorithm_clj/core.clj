@@ -1,5 +1,6 @@
 (ns viterbi-algorithm-clj.core
-  (:use [clojure.pprint]))
+  (:use [clojure.pprint])
+  (:import (viterbiAlgorithm Viterbi)))
 
 (defstruct hmm :n :m :init-probs :emission-probs :state-transitions)
 

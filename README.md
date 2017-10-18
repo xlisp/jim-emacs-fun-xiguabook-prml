@@ -4,7 +4,32 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+```clojure
+
+viterbi-algorithm-clj.core=> (Viterbi/main (into-array (list "1" "3")))
+
+States: #, NN, VB,
+
+Observations: I, write, a letter,
+
+Start probability: #: 0.3, NN: 0.4, VB: 0.3,
+
+Transition probability:
+ #: {  #: 0.2,   NN: 0.2,   VB: 0.6, }
+ NN: {  #: 0.4,   NN: 0.1,   VB: 0.5, }
+ VB: {  #: 0.1,   NN: 0.8,   VB: 0.1, }
+
+
+Emission probability:
+ #: {  I: 0.01,   write: 0.02,   a letter: 0.02, }
+ NN: {  I: 0.8,   write: 0.01,   a letter: 0.5, }
+ VB: {  I: 0.19,   write: 0.97,   a letter: 0.48, }
+Viterbi path: [NN, VB, NN, ].
+ Probability of the whole system: 0.06208000000000002
+nil
+viterbi-algorithm-clj.core=>
+
+```
 
 ## License
 
