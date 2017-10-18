@@ -1,6 +1,6 @@
 # viterbi-algorithm-clj
 
-A Clojure library designed to ... well, that part is up to you.
+西瓜书和PRML学习记录--HMM实现算法,以及数学公式理论到算法的过程记录
 
 ## Usage
 
