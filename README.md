@@ -1,9 +1,6 @@
-# viterbi-algorithm-clj
+# jim-emacs-fun-xiguabook-prml: 西瓜书和PRML学习记录, 以及数学公式理论到算法的过程记录
 
-西瓜书和PRML学习记录--HMM实现算法,以及数学公式理论到算法的过程记录
-
-## Usage
-
+### HMM-viterbi算法
 ```clojure
 
 viterbi-algorithm-clj.core=> (Viterbi/main (into-array (list "1" "3")))
@@ -30,7 +27,14 @@ nil
 viterbi-algorithm-clj.core=>
 
 ```
+### 贝叶斯网络
+```clojure
+```
+### 马尔科夫网络
+```clojure
+```
 
+Transition probability:
 ## License
 
 Copyright © 2017 FIXME
