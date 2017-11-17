@@ -1,4 +1,4 @@
-# jim-emacs-fun-xiguabook-prml: 西瓜书和PRML学习记录, 以及数学公式理论到算法的过程记录
+# jim-emacs-fun-xiguabook-prml: 西瓜书,PRML,PPL学习记录, 以及数学公式理论到算法的过程记录
 
 ### HMM-viterbi算法
 ```clojure
