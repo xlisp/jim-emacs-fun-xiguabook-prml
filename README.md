@@ -34,6 +34,10 @@ viterbi-algorithm-clj.core=>
 ```clojure
 ```
 
+### 高斯分布
+```clojure
+```
+
 Transition probability:
 ## License
 
